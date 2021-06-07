@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">MangaList</string>
+    <string name="episodes">Episodes: </string>
+    <string name="type">Type: </string>
+    <string name="score">Score: </string>
+    <string name="error_response_code">\"Response error, response code: \"</string>
+    <string name="error_internet_connection">There was an error in downloading earthquakes, check internet connection.</string>
+    <string name="no_animes_right_now">No animes right now</string>
+</resources>

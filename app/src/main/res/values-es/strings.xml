@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="episodes">Episodios: </string>
+    <string name="type">Tipo: </string>
+    <string name="score">Puntuacion: </string>
+    <string name="error_internet_connection">There was an error in downloading earthquakes, check internet connection.</string>
+</resources>

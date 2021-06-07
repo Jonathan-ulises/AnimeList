@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgCover"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            tools:src="@drawable/ic_launcher_background"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/txtAnimeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="AnimeName"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/imgCover"
+            android:layout_marginStart="8dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/episode_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/episodes"
+            android:textSize="16sp"
+            android:layout_toEndOf="@id/imgCover"
+            android:layout_below="@+id/txtAnimeName"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtAnimeEps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="335"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/episode_text"
+            android:layout_alignTop="@+id/episode_text"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textSize="16sp"
+            android:layout_toEndOf="@id/imgCover"
+            android:layout_below="@+id/episode_text"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtTypeA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="ONA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/type_text"
+            android:layout_alignTop="@id/type_text"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="16sp"
+            android:layout_toEndOf="@id/imgCover"
+            android:layout_below="@+id/type_text"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtScoreA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="8.5"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/score_text"
+            android:layout_alignTop="@+id/score_text"
+            android:layout_marginStart="8dp" />
+
+    </RelativeLayout>
+</layout>
